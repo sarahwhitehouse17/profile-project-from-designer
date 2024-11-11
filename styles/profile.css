@@ -15,6 +15,7 @@ h1 {
   font-weight: 600;
   font-style: bold;
   font-size: 96px;
+  line-height: 1.5;
 }
 
 p {
@@ -46,4 +47,55 @@ p {
   padding: 18px 30px;
   color: white;
   border-radius: 4px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #272142;
+  line-height: 1.5;
+}
+
+header {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.project-description {
+  color: #272142;
+  opacity: 70%;
+  font-size: 16px;
+}
+
+.btn-branding-outline {
+  text-decoration: none;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  padding: 18px 30px;
+  border-radius: 4px;
+
+}
+
+.project-container {
+  padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+
+  .heading {
+  padding: 80px 10px;
+}
+
+  .project-container {
+padding: 0;
+text-align: center;
+margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 42px;
+  }
+  header {
+    font-size: 36px;
+  }
 }
