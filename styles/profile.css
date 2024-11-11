@@ -42,7 +42,6 @@ p {
 
 .heading a {
   text-decoration: none;
-  color: black;
   background-color: var(--branding-color);
   padding: 18px 30px;
   color: white;
@@ -74,28 +73,71 @@ header {
   border: 1px solid var(--branding-color);
   padding: 18px 30px;
   border-radius: 4px;
-
 }
 
 .project-container {
   padding: 120px 60px;
 }
 
-@media (max-width: 960px) {
-
-  .heading {
-  padding: 80px 10px;
+.about-me {
+  margin: 40px auto;
 }
 
+.about-me h1 {
+  font-size: 66px;
+  line-height: 1.5;
+}
+.about-me h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.branding-color-button {
+  text-decoration: none;
+  background-color: var(--branding-color);
+  padding: 18px 30px;
+  color: white;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.about-me-section {
+  padding: 160px 20px;
+}
+
+@media (max-width: 960px) {
+  .heading {
+    padding: 60px 10px;
+  }
+
+  .about-me {
+    padding: 40px 20px;
+  }
+
   .project-container {
-padding: 0;
-text-align: center;
-margin-bottom: 20px;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
   }
   h1 {
-    font-size: 42px;
+    font-size: 40px;
   }
   header {
     font-size: 36px;
   }
+  .about-me-section {
+    padding: 0;
+    text-align: center;
+  }
+  .branding-color-button {
+    margin: 20px;
+    padding-top: 40px auto;
+  }
+.about-me-image {
+  margin-top: 40px;
+}
+.about-me h1 {
+  font-size: 40px;
+}
 }
