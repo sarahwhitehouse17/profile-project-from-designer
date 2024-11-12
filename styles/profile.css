@@ -5,6 +5,28 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
+.logo {
+  width: 150px;
+  height: 40px;
+}
+
+.homepage-navbar-background {
+  background-color: var(--secondary-color);
+}
+
+.navbar {
+  color: #272142;
+}
+
+.navbar:hover {
+  color: var(--branding-color);
+}
+
+.active-navbar {
+  color: var(--branding-color);
+  text-decoration: none;
+}
+
 body {
   font-family: var(--default-font-family);
 }
@@ -83,15 +105,16 @@ header {
   padding: 120px 60px;
 }
 
-.content-section {
+.content {
   margin: 40px auto;
 }
 
-.content-section h1 {
+.content h1 {
   font-size: 66px;
   line-height: 1.5;
 }
-.content-section h2 {
+
+.content h2 {
   font-family: var(--default-font-family);
   font-size: 18px;
   font-weight: bold;
@@ -107,25 +130,48 @@ header {
 }
 
 .about-me-page-button {
-    margin: 0 auto;
-    display: flex;
-    max-width: 200px;
-    margin-left: -100px;
-
-
+  margin: 0 auto;
+  display: flex;
+  max-width: 200px;
+  margin-left: -100px;
 }
 
-.content-section {
+.about-image {
+  margin-top: 500px;
+}
+
+.content {
   padding: 160px 20px;
 }
 
-.content-section h3 {
+.content h3 {
   font-weight: bold;
 }
 
 @media (max-width: 960px) {
   .heading {
-    padding: 60px 10px;
+    padding: 80px 20px;
+  }
+
+  .logo {
+    width: 95px;
+    height: 30px;
+  }
+
+  .navbar {
+    font-size: 12px;
+  }
+
+  .navbar:hover {
+    color: var(--branding-color);
+  }
+
+  .active-navbar {
+    font-size: 12px;
+  }
+
+  .active-navbar:hover {
+    color: var(--branding-color);
   }
 
   .project-container {
@@ -139,7 +185,8 @@ header {
   header {
     font-size: 36px;
   }
-  .content-section {
+
+  .content {
     padding: 0;
     text-align: center;
   }
@@ -149,7 +196,7 @@ header {
     padding-top: 40px auto;
   }
 
-  .content-section h1 {
+  .content h1 {
     font-size: 40px;
   }
 }
