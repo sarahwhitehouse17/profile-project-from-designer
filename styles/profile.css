@@ -5,6 +5,11 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
 h1,
 h4,
 h4 {
@@ -18,10 +23,6 @@ h4 {
 
 .homepage-navbar-background {
   background-color: var(--secondary-color);
-}
-
-.homepage-image-width {
-  margin: 20px 20px;
 }
 
 .navbar {
@@ -176,8 +177,8 @@ header {
 .work-enquiry-container {
   display: flex;
   justify-content: space-between;
-  max-width: 1225px;
-  margin-top: -60px;
+  max-width: 1220px;
+  margin-top: 60px;
   background-color: var(--secondary-color);
   padding: 60px 120px;
   margin-bottom: 100px;
@@ -212,6 +213,12 @@ header {
 @media (max-width: 960px) {
   .heading {
     padding: 80px 20px;
+    max-width: 960px;
+  }
+
+  body {
+    margin-right: 0px;
+    overflow-x: hidden;
   }
 
   .logo {
@@ -235,6 +242,13 @@ header {
     color: var(--branding-color);
   }
 
+  .work-enquiry-button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  }
   .project-container {
     padding: 0;
     text-align: center;
@@ -252,15 +266,15 @@ header {
     text-align: center;
   }
 
-  .branding-color-button {
-    margin: 20px;
-    padding-top: 40px auto;
-  }
-
   .branding-color-button:hover {
     background-color: white;
     color: var(--branding-color);
     border: 1px solid var(--branding-color);
+  }
+
+  .btn-branding-outline {
+    display: block;
+    margin: 0 auto;
   }
 
   .btn-branding-outline:hover {
@@ -272,15 +286,15 @@ header {
     font-size: 40px;
   }
   .work-enquiry-container {
-    display: inline-block;
-    width: 100%;
+    display: flex;
+    justify-content: center;
     padding: 10px;
     margin-bottom: 40px;
     margin-top: 20px;
+    max-width: 350px;
   }
 
   .work-enquiry {
-    width: 100%;
     padding: 0;
     margin: 0;
   }
