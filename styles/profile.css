@@ -115,6 +115,11 @@ header {
   text-align: center;
 }
 
+.btn-branding-outline:hover {
+  color: black;
+  border: 1px solid black;
+}
+
 .project-container {
   padding: 20px 10px;
 }
@@ -143,6 +148,12 @@ header {
   margin-top: 20px;
 }
 
+.branding-color-button:hover {
+  background-color: white;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
+
 .about-me-page-button {
   margin: 0 auto;
   display: flex;
@@ -166,7 +177,7 @@ header {
   display: flex;
   justify-content: space-between;
   max-width: 1225px;
-  margin-top: 60px;
+  margin-top: -60px;
   background-color: var(--secondary-color);
   padding: 60px 120px;
   margin-bottom: 100px;
@@ -244,6 +255,17 @@ header {
   .branding-color-button {
     margin: 20px;
     padding-top: 40px auto;
+  }
+
+  .branding-color-button:hover {
+    background-color: white;
+    color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+  }
+
+  .btn-branding-outline:hover {
+    color: black;
+    border: 1px solid black;
   }
 
   .content h1 {
