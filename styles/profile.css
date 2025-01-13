@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #2c786c;
+  --secondary-color: #ddeedf;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -11,7 +11,7 @@ body {
 }
 
 h1,
-h4,
+h2,
 h4 {
   font-family: var(--heading-font-family);
 }
@@ -47,7 +47,6 @@ body {
 }
 
 h1 {
-  font-family: var(--heading-font-family);
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: bold;
@@ -311,4 +310,39 @@ header {
   .footer-email:hover {
     color: var(--branding-color);
   }
+}
+
+.profile-photo {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.background-section h2 {
+  font-size: 60px;
+}
+
+.background-section p {
+  margin-top: 30px;
+}
+
+.background-section {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.projects-section h2 {
+  font-size: 48px;
+}
+
+.img-fluid {
+  height: 400px;
+  width: 500px;
+}
+
+.homepage-images {
+  border: 2px solid var(--branding-color);
+}
+
+.navbar-background {
+  background-color: var(--secondary-color);
 }
