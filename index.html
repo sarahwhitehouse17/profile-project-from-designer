@@ -18,6 +18,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -88,27 +90,41 @@
     <section>
       <div class="row justify-content-between">
         <div class="col-6 background-section">
-          <h2>My background</h2>
+          <h2
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in"
+            data-aos-duration="1000"
+          >
+            My background
+          </h2>
           <div class="my-text">
-            <p>
-              My previous career experience has been entirely focused on the
-              education sector. After graduating from my MA in Translation, I
-              moved to Madrid and worked as an Education Consultant, where I
-              supporting Spanish students with their university applications,
-              and worked with overseas universities on their outreach in Spain.
-              Following this, in my most recent role, I worked as Recruiter for
-              Teach First; a leading teacher training programme in the UK which
-              seeks to bridge gaps in educational inequality.
-            </p>
-            <p>
-              Outside of my career, I absolutely love travelling and was
-              fortunate to go backpacking in Asia last year for 5 months. This
-              was a hugely rewarding experience. I also love caring for animals,
-              reading and journalling in my free time. In addition to completing
-              a bootcamp in programming, I've also started learning Portuguese!
-              Generally, I love learning new skills and taking on new
-              challenges.
-            </p>
+            <div
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in"
+              data-aos-duration="1000"
+            >
+              <p>
+                My previous career experience has been entirely focused on the
+                education sector. After graduating from my MA in Translation, I
+                moved to Madrid and worked as an Education Consultant, where I
+                supporting Spanish students with their university applications,
+                and worked with overseas universities on their outreach in
+                Spain. Following this, in my most recent role, I worked as
+                Recruiter for Teach First; a leading teacher training programme
+                in the UK which seeks to bridge gaps in educational inequality.
+              </p>
+              <p>
+                Outside of my career, I absolutely love travelling and was
+                fortunate to go backpacking in Asia last year for 5 months. This
+                was a hugely rewarding experience. I also love caring for
+                animals, reading and journalling in my free time. In addition to
+                completing a bootcamp in programming, I've also started learning
+                Portuguese! Generally, I love learning new skills and taking on
+                new challenges.
+              </p>
+            </div>
           </div>
         </div>
         <div class="col-4 background-section">
@@ -118,25 +134,25 @@
       </div>
     </section>
     <section class="projects-section">
-      <div>
+      <div data-aos="fade-up" data-aos-duration="1000">
         <h2 class="homepage-projects-header">Recent projects</h2>
       </div>
       <div class="row project-examples">
-        <div class="col-4">
+        <div class="col-4" data-aos="fade-up" data-aos-duration="1000">
           <img
             src="images/weather-app-react.png"
             alt=""
             class="img-fluid homepage-images"
           />
         </div>
-        <div class="col-4">
+        <div class="col-4" data-aos="fade-up" data-aos-duration="1000">
           <img
             src="images/react-dictionary-website.png"
             alt=""
             class="img-fluid homepage-images text-center"
           />
         </div>
-        <div class="col-4">
+        <div class="col-4" data-aos="fade-up" data-aos-duration="1000">
           <img
             src="images/travel-page.png"
             alt=""
@@ -145,7 +161,7 @@
         </div>
       </div>
     </section>
-    <div class="container work-enquiry-container">
+    <div class="container work-enquiry-container" data-aos="fade-up" data-aos-duration="1000">
       <div class="work-enquiry">
         <h2 class="fw-bold">Work Enquiry</h2>
         <p class="opacity-75">
@@ -170,5 +186,9 @@
       ></i>
       <i class="fa-brands fa-square-instagram icon-styling rounded-circle"></i>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
