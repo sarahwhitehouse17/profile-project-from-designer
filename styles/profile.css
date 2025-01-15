@@ -7,6 +7,7 @@
 
 .work-project-img {
   transition: all 0.5s ease;
+  max-width: 100%;
 }
 
 .work-project-img:hover {
@@ -43,7 +44,10 @@ h4 {
 
 .homepage-navbar-background {
   background-color: var(--secondary-color);
+  padding-left: 20px;
 }
+
+
 
 .navbar {
   color: #272142;
@@ -118,9 +122,45 @@ header {
 }
 
 .project-description {
+  width: 500px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.project-description-one {
   color: #272142;
   opacity: 70%;
   font-size: 16px;
+  background-color: #F2E6E9;
+}
+
+.project-description-two {
+  color: #272142;
+  opacity: 70%;
+  font-size: 16px;
+  background-color: #8594E4;
+}
+
+.project-description-three {
+  color: #272142;
+  opacity: 70%;
+  font-size: 16px;
+  background-color: #a2a8d3;
+}
+
+.project-description-four {
+  color: #272142;
+  opacity: 70%;
+  font-size: 16px;
+  background-color: #6e61a5;
+}
+
+
+
+
+.work-left-column {
+  padding: 0px;
+  margin: 0px;
 }
 
 .btn-branding-outline {
@@ -227,10 +267,6 @@ header {
 .icon-styling:hover {
   background-color: var(--branding-color);
   color: white;
-}
-
-.project-description {
-  max-width: 450px;
 }
 
 @media (max-width: 960px) {
