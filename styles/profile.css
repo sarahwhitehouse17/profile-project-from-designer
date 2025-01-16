@@ -88,6 +88,7 @@ p {
   text-align: center;
   background-color: var(--secondary-color);
   padding: 160px 20px;
+  margin: 0px;
 }
 
 .heading p {
@@ -267,6 +268,11 @@ header {
   background-color: var(--branding-color);
   color: white;
 }
+.heading-container {
+  width: 100vw; /* Full width of the viewport */
+  margin: 0; /* Remove any default margins */
+  padding: 0;
+}
 
 @media (max-width: 960px) {
   .heading {
@@ -428,6 +434,28 @@ header {
   .heading-homepage {
     display: grid;
     grid-template-columns: 1fr;
+    text-align: center;
+    margin-left: -20px;
+  }
+
+  .heading-homepage h1 {
+    font-size: 30px;
+    margin-left: 200px;
+    display: inline-block;
+    margin-top: 30px;
+  }
+  .background-section h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .heading-homepage h2 {
+    font-size: 22px;
+  }
+
+  .homepage-projects-header {
+    font-weight: bold;
+    text-align: center;
   }
   body {
     background-color: var(--secondary-color);
@@ -439,21 +467,46 @@ header {
     grid-template-columns: 1fr;
   }
 
-  .heading-homepage {
-    padding: 0px;
-  }
   .heading {
     padding: 0px;
   }
-  .profile-photo  {
-    width: 550px;
+  .profile-photo {
     display: block;
     padding: 40px;
     overflow-x: hidden;
   }
   .background-section {
-    display: block;
-    margin: 0 auto;
-    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    width: 100%;
+  }
+  .background-section p {
+    width: 100%;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  .background-section img {
+        display: block;
+        margin: 0 auto;
+
+  }
+  .projects-section h2 {
+    font-size: 30px;
+  }
+  .project-examples {
+    display: grid;
+    margin: 0px auto;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+
+  .homepage-images {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  html {
+    width: 100%;
   }
 }
