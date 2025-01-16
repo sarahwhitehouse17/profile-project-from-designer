@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Patricia is a front-end engineer based in Portugal"
+      content="I am a front-end engineer based in Madrid"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -40,8 +40,7 @@
     <title>Sarah Whitehouse - Frontend developer based in Madrid</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="container-fluid heading-container">
+        <div class="container-fluid">
         <div class="homepage-navbar-background">
           <nav>
             <div class="d-flex justify-content-between ms-1">
@@ -75,50 +74,39 @@
               </ul>
             </div>
           </nav>
-          <div class="heading">
-            <div class="row justify-content-between heading-homepage">
+          <div class="top-section">
+            <div class="row justify-content-between homepage-header">
               <div
-                class="col-4 heading-homepage"
+                class="col-12 col-lg-6 homepage-header"
                 data-aos="fade-right"
                 data-aos-easing="ease-in"
                 data-aos-duration="1000"
               >
                 <h1>Sarah Whitehouse</h1>
-                <h2 class="mb-5 homepage-subheading">
-                  Front-end developer based in Madrid
-                </h2>
+                <h2>Front-end developer based in Madrid</h2>
               </div>
               <div
-                class="col-6"
+                class="col-12 col-lg-6 homepage-img"
                 data-aos="fade-left"
                 data-aos-easing="ease-in"
                 data-aos-duration="1000"
               >
-                <img src="images/profile-photo.jpg" class="profile-photo" />
+                <img src="images/profile-photo.jpg" width="500px" />
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div>
+             </div>
+             </div>
         <section>
-          <div class="row justify-content-between background-section-row container-fluid">
-            <div class="col-6 background-section">
-              <h2
-                data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-easing="ease-in"
-                data-aos-duration="1000"
-              >
-                My background
-              </h2>
-              <div class="my-text">
-                <div
-                  data-aos="fade-right"
+          <div class="row justify-content-between">
+            <div class="col-12 col-lg-6 background-section">
+              <div data-aos="fade-right"
                   data-aos-offset="300"
                   data-aos-easing="ease-in"
-                  data-aos-duration="1000"
-                >
+                  data-aos-duration="1000">
+              <h2>
+                My background
+              </h2>
                   <p>
                     My previous career experience has been entirely focused on
                     the education sector. After graduating from my MA in
@@ -139,61 +127,69 @@
                     started learning Portuguese! Generally, I love learning new
                     skills and taking on new challenges.
                   </p>
-                </div>
+                  </div>
               </div>
-            </div>
-            <div class="col-12 col-md-4 background-section">
-              <h2 class="mb-5">Programming languages</h2>
+            <div class="col-12 col-lg-5 programming-language">
+              <h2
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in"
+                data-aos-duration="1000"
+              >
+                My programming languages
+              </h2>
               <img src="images/programming-languages.jpg" />
             </div>
           </div>
         </section>
-        <section class="projects-section container-fluid">
-          <div data-aos="fade-up" data-aos-duration="1000">
-            <h2 class="homepage-projects-header">Recent projects</h2>
+        <section class="container-fluid">
+          <div data-aos="fade-up" data-aos-duration="1000" class="recent-projects">
+            <h2>Recent projects</h2>
           </div>
-          <div class="row project-examples">
-            <div class="col-12 col-md-4" data-aos="fade-up" data-aos-duration="1000">
+          <div class="row recent-projects">
+            <div
+              class="col-12 col-md-4"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <img
                 src="images/weather-app-react.png"
                 alt=""
-                class="img-fluid homepage-images"
+                class="img-fluid"
               />
             </div>
-            <div class="col-12 col-md-4" data-aos="fade-up" data-aos-duration="1000">
+            <div
+              class="col-12 col-md-4"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <img
                 src="images/react-dictionary-website.png"
                 alt=""
-                class="img-fluid homepage-images text-center"
+                class="img-fluid text-center"
               />
             </div>
-            <div class="col-12 col-md-4" data-aos="fade-up" data-aos-duration="1000">
-              <img
-                src="images/travel-page.png"
-                alt=""
-                class="img-fluid homepage-images"
-              />
+            <div
+              class="col-12 col-md-4"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <img src="images/travel-page.png" alt="" class="img-fluid" />
             </div>
           </div>
         </section>
-        <div
-          class="work-enquiry-container container-fluid"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          <div class="work-enquiry">
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <div class="container work-enquiry-container work-enquiry">
             <h2 class="fw-bold">Work Enquiry</h2>
             <p class="opacity-75">
               Let's work together and I'll do my best to assist you!
             </p>
+            <a href="contact.html" class="btn branding-color-button"
+              >Let's talk here</a
+            >
           </div>
-          <a
-            href="contact.html"
-            class="btn branding-color-button work-enquiry-button"
-            >Let's talk here</a
-          >
         </div>
-        <div class="footer-contact mb-5">
+        <div class="mb-5 footer-contact ">
           <a
             href="https://github.com/sarahwhitehouse17"
             target="_blank"
@@ -214,7 +210,6 @@
             <i class="fa-regular fa-envelope icon-styling rounded-circle"></i
           ></a>
         </div>
-      </div>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
