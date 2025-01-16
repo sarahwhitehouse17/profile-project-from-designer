@@ -47,7 +47,9 @@ h4 {
   padding-left: 20px;
 }
 
-
+.contact-image {
+  margin-top: 150px;
+}
 
 .navbar {
   color: #272142;
@@ -131,14 +133,14 @@ header {
   color: #272142;
   opacity: 70%;
   font-size: 16px;
-  background-color: #F2E6E9;
+  background-color: #f2e6e9;
 }
 
 .project-description-two {
   color: #272142;
   opacity: 70%;
   font-size: 16px;
-  background-color: #8594E4;
+  background-color: #8594e4;
 }
 
 .project-description-three {
@@ -154,9 +156,6 @@ header {
   font-size: 16px;
   background-color: #6e61a5;
 }
-
-
-
 
 .work-left-column {
   padding: 0px;
@@ -420,4 +419,41 @@ header {
 
 .navbar-background {
   background-color: var(--secondary-color);
+}
+
+@media (max-width: 800px) {
+  .contact-image {
+    display: none;
+  }
+  .heading-homepage {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  body {
+    background-color: var(--secondary-color);
+    overflow-x: hidden;
+  }
+
+  .background-section-row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .heading-homepage {
+    padding: 0px;
+  }
+  .heading {
+    padding: 0px;
+  }
+  .profile-photo  {
+    width: 550px;
+    display: block;
+    padding: 40px;
+    overflow-x: hidden;
+  }
+  .background-section {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+  }
 }
