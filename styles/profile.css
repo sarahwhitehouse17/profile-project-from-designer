@@ -314,10 +314,6 @@ body {
   margin-top: 200px;
 }
 
-.contact-page h1 {
-  font-size: 40px;
-}
-
 .contact-page-content h3,
 p {
   font-size: 20px;
@@ -331,7 +327,7 @@ p {
   }
 
   .recent-projects-heading {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .background-programming-styling {
@@ -340,8 +336,16 @@ p {
   }
 
   .project-description {
-    width: 315px;
+    width: 338px;
     height: 300px;
+  }
+
+  .project-description h3 {
+    font-size: 20px;
+  }
+
+  .project-description p {
+    font-size: 15px;
   }
 
   .background-programming-styling h2 {
@@ -371,7 +375,7 @@ p {
   }
 
   .background-programming-styling p {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .background-programming-styling {
@@ -520,6 +524,11 @@ p {
     margin-top: 60px;
   }
 
+  .contact-page h1 {
+    font-size: 30px;
+    text-align: center !important;
+  }
+
   .background-section {
     margin-bottom: 30px;
   }
@@ -549,6 +558,10 @@ p {
 
   .contact-container {
     width: 100%;
+  }
+
+  .contact-container p {
+    font-size: 15px;
   }
 
   .background-programming-styling img {
