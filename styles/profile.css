@@ -26,6 +26,7 @@
   margin-top: 10px;
   color: white;
   background-color: var(--branding-color);
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 .contact-container a:hover {
@@ -50,7 +51,7 @@ h4 {
 
 .homepage-navbar-background {
   background-color: var(--secondary-color);
-  padding-left: 20px;
+  padding-left: 0px;
 }
 
 .contact-image {
@@ -203,7 +204,7 @@ header {
   background-color: var(--secondary-color);
   padding: 20px;
   color: var(--branding-color);
-  transition: all 100ms ease-in-out;
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 .icon-styling:hover {
@@ -331,13 +332,17 @@ p {
   }
 
   .background-programming-styling {
-    margin-top: 20px;
+    margin-top: 120px;
     font-weight: bold;
   }
 
   .project-description {
     width: 338px;
     height: 300px;
+  }
+
+  .recent-projects-header {
+    margin-top: 100px;
   }
 
   .project-description h3 {
@@ -355,7 +360,8 @@ p {
   }
 
   .programming-languages {
-    margin-top: 30px;
+    margin-top: 150px;
+    margin-bottom: 100px;
     display: block;
     margin: 0 auto;
   }
@@ -388,7 +394,9 @@ p {
 
   .container-fluid {
     margin: 0px;
-    padding: 0px;
+    padding: 0px !important;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .top-section {
@@ -417,6 +425,11 @@ p {
   .homepage-header h2 {
     margin: 0px;
   }
+
+  .homepage-header {
+    margin-bottom: 30px;
+  }
+
   .background-section {
     text-align: center;
     padding: 20px;
@@ -495,6 +508,7 @@ p {
 
   .recent-projects {
     padding: 20px;
+    margin-top: 20px;
   }
   .recent-projects h2 {
     font-size: 30px;
@@ -529,8 +543,12 @@ p {
     text-align: center !important;
   }
 
+  .contact-container a {
+    font-size: 16px;
+  }
+
   .background-section {
-    margin-bottom: 30px;
+    margin-bottom: 100px;
   }
 
   .background-section h2 {
@@ -548,6 +566,7 @@ p {
     padding: 20px;
     margin: 20px;
   }
+
 
   .programming-language h2 {
     font-weight: bold;
@@ -600,7 +619,8 @@ p {
   }
 
   .background-section p {
-    padding: 20px;
+    padding: 0px;
+    margin: 20px 0px;
   }
 
   .work-enquiry-container {
