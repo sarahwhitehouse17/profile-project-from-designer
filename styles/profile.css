@@ -218,7 +218,7 @@ header {
 }
 
 .background-programming-styling {
-  margin-top: 150px;
+  margin-top: 100px;
   padding: 40px;
   margin-left: 30px;
   margin-right: 30px;
@@ -332,7 +332,6 @@ p {
   }
 
   .background-programming-styling {
-    margin-top: 120px;
     font-weight: bold;
   }
 
@@ -414,7 +413,7 @@ p {
   }
 
   .project-description p {
-    font-size: 18px;
+    font-size: 15px;
     padding: 0px;
   }
 
@@ -566,7 +565,6 @@ p {
     padding: 20px;
     margin: 20px;
   }
-
 
   .programming-language h2 {
     font-weight: bold;
