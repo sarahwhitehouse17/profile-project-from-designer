@@ -13,18 +13,20 @@
   }
   .contact-container {
     margin-top: 800px;
-    margin-bottom: -50px;
   }
   body {
     margin-bottom: 10px;
     padding-bottom: 10px;
   }
   .contact-container {
-    margin-bottom: 20px;
   }
 
   .contact-container {
     margin-top: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+  }
+
+  .footer-contact {
+    margin-top: 20px;
   }
 }
