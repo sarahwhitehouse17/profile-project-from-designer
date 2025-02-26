@@ -12,7 +12,7 @@
   margin: 0 auto;
   padding: 30px;
   border-radius: 10px;
-  margin-top: 1800px;
+  margin-top: 200px;
   margin-bottom: 100px;
 }
 
@@ -41,6 +41,10 @@
 
 .work-project-img:hover {
   transform: scale(1.1);
+}
+
+.navbar {
+  padding-left: 10px;
 }
 
 h1,
@@ -79,8 +83,13 @@ h4 {
   margin-right: 180px;
 }
 
+.homepage-header h1 {
+  font-size: 80px;
+}
+
 .homepage-header h2 {
   margin-top: 20px;
+  font-size: 30px;
 }
 
 .homepage-header {
@@ -212,6 +221,10 @@ header {
   color: white;
 }
 
+.contact-page h1 {
+  font-size: 60px;
+}
+
 .profile-photo {
   width: 500px;
   border-radius: 10px;
@@ -225,7 +238,6 @@ header {
 }
 
 .background-programming-styling h2 {
-  font-size: 40px;
   margin-bottom: 30px;
 }
 
@@ -249,7 +261,7 @@ header {
 }
 
 .background-section p {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .background-programming-styling {
@@ -297,13 +309,12 @@ body {
   font-size: 60px;
 }
 .recent-projects h2 {
-  font-size: 40px;
   margin-bottom: 20px;
 }
 
 .recent-projects img {
   margin-bottom: 40px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .contact-page {
@@ -342,6 +353,10 @@ p {
 
   .recent-projects-header {
     margin-top: 100px;
+  }
+
+  .recent-projects h2 {
+    font-size: 30px;
   }
 
   .project-description h3 {
@@ -509,9 +524,6 @@ p {
     padding: 20px;
     margin-top: 20px;
   }
-  .recent-projects h2 {
-    font-size: 30px;
-  }
 
   .contact-page-content {
     text-align: center;
@@ -575,6 +587,7 @@ p {
 
   .contact-container {
     width: 100%;
+    margin-bottom: 0px;
   }
 
   .contact-container p {
@@ -611,9 +624,9 @@ p {
 
   .recent-projects h2 {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .background-section p {
