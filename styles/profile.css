@@ -84,7 +84,7 @@ h4 {
 }
 
 .homepage-header h1 {
-  font-size: 80px;
+  font-size: 60px;
 }
 
 .homepage-header h2 {
@@ -442,6 +442,10 @@ p {
 
   .homepage-header {
     margin-bottom: 30px;
+  }
+
+  .homepage-header h1 {
+    font-size: 45px;
   }
 
   .background-section {
